@@ -2,8 +2,8 @@
 date_default_timezone_set('Asia/Jakarta');
 
 $servername ="localhost";
-$username="root";
-$password = "";
+$username="jottie";
+$password = "masjottie";
 $db = "mydailyjournal";
 
 //create connesction
