@@ -1,17 +1,17 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 
-$servername ="localhost";
-$username="jottie";
+$servername = "127.0.0.1";
+$username = "jottie";
 $password = "masjottie";
 $db = "mydailyjournal";
 
 //create connesction
-$conn = new mysqli($servername,$username,$password,$db);
+$conn = new mysqli($servername, $username, $password, $db);
 
 //check connection
-if($conn->connect_error){
-    die("Koneksi Gagal : ". $conn->connect_error);
+if ($conn->connect_error) {
+    die("Koneksi Gagal : " . $conn->connect_error);
 }
 
 ?>
